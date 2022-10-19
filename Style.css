@@ -1,0 +1,38 @@
+*{margin:0px;}
+header{
+    background-color: black;
+    box-shadow:0px 0px 3px black;
+}
+header>h1{
+    color:white;
+    font-family: 'Courier New', Courier, monospace;
+    margin-left:25px;
+    cursor: default;
+}
+header>h1:focus{
+    cursor:default;
+}
+main>form{
+    width:300px;
+    margin-left:auto;
+    margin-right:auto;
+}
+main>form>p{
+    text-align:center;
+    margin-top:100px;
+    text-shadow:0px 0px 3px black;
+}
+main>form>input{
+    margin-left:auto;
+    margin-right:auto;
+    box-shadow:0px 0px 3px black;
+    width:300px;
+    font-family:'Courier New', Courier, monospace;
+}
+main>form>#xxx{
+    margin-top:10px;
+    width:60px;
+}
+main>form>input:focus{
+    outline:none;
+}
